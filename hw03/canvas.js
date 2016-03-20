@@ -39,6 +39,7 @@ var y=240;
 var dx=1;
 var dy=1;
 
+	
 var drawDVD = function() {
     if (x==0 || x+(logo.width/5)==500) {
 	console.log('horizontal edge');
