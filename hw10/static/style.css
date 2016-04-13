@@ -1,0 +1,127 @@
+html {
+    margin: 0;
+}
+body {
+    font-family: "Verdana", sans-serif;
+    background-color: #2EB8B8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Segoe UI", sans-serif;
+	font-weight: 500;
+}
+
+#banner {
+    height: 100px;
+    background-color: #85E0E0;
+    margin-top:0;
+    padding:15px;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    border:5px solid #124A4A;
+    padding: 0px;
+    background-color:#FFFFFF;
+}
+
+.feed {
+    padding:10px;
+}
+
+
+
+.allpost {
+    
+}
+.onepost {
+    
+}
+
+#textpost {
+    width:80%;
+}
+
+.comments {
+    background-color:#CCFFFF;
+    border: 2px solid #124A4A;
+    padding: 5px;
+}
+
+ul.nav {
+	list-style-type: none;
+	background-color: #444;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	
+	overflow: auto;
+}
+
+li.nav {
+	float: right;
+	line-height: 40px;
+	height: 40px;
+	width: 120px;
+}
+
+li.nav2 {
+	float: left;
+	line-height: 40px;
+	height: 40px;
+	color: #fff;
+}
+
+li.nav3 {
+	float: left;
+	line-height: 40px;
+	height: 40px;
+	width: 120px;
+}
+
+a {
+//	display: block;
+}
+
+a.username {
+	text-decoration: none;
+	color: #444;
+	//background-color: #DDD;
+}
+
+a.username:hover {
+	color: #266;
+	background-color: #CCC;
+}
+
+a.h1 {
+	display: block;
+	text-decoration: none;
+	transition: .5s background-color;
+	color: purple;
+	text-align: center;
+	
+}
+
+a.h1:hover {
+	background-color: #5f005f;
+	color: #a0a;
+}
+
+a.nav {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	transition: .5s background-color;
+}
+
+a.nav:hover {
+	background-color: #005f5f;
+}
+
+a.nav:active {
+	background-color: #f0f;
+	color: #444;
+	cursor: default;
+}
